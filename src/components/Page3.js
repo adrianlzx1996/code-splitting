@@ -1,6 +1,6 @@
 import React from "react";
 
-const Page1 = ({ onRouteChange }) => (
+const Page3 = ({ onRouteChange }) => (
 	<div className="App">
 		<button onClick={() => onRouteChange("page1")}>Page 1</button>
 		<button onClick={() => onRouteChange("page2")}>Page 2</button>
@@ -8,4 +8,4 @@ const Page1 = ({ onRouteChange }) => (
 	</div>
 );
 
-export default Page1;
+export default Page3;
